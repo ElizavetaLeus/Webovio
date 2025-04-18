@@ -1,0 +1,15 @@
+body {
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-green: #4d533c;
+  --color-light-green: #b6c197;
+  --color-dark-green: #4f553d;
+  --color-grey-light: rgba(33, 56, 66, 0.6);
+  --color-footer-border-green: #5d6544;
+  --color-footer-social-media: #444a34;
+  --color-footer-subtitle-green: #b6c197;
+  --color-grey: #d4d6d4;
+  --color-yellow: #ffd723;
+  --font-family-primary: "Poppins", sans-serif;
+  --font-family-secondary: "FontAwesome", sans-serif;
+}

@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'FontAwesome';
+	src: url('../fonts/fontawesome.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/fontawesome.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/fontawesome.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/fontawesome.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/fontawesome.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/fontawesome.svg#fontawesome') format('svg'); /* Chrome < 4, Legacy iOS */
+}
