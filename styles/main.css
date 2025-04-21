@@ -50,7 +50,7 @@
 .info__subtitle {
   max-width: 194px;
   width: 100%;
-  color: var(--color-grey-light);
+  color: var(--color-grey-dark);
   font-size: 14px;
   line-height: 26px;
   margin-top: 20px;
@@ -59,7 +59,7 @@
 .info__link {
   max-width: 102px;
   width: 100%;
-  color: var(--color-yellow);
+  color: var(--color-grey);
   font-size: 16px;
   line-height: 1;
   font-family: var(--font-family-secondary);
@@ -67,11 +67,17 @@
   display: inline-block;
 }
 
+.info__link_active {
+  color: var(--color-yellow);
+}
+
 .offer {
-  max-width: 1110px;
+  max-width: 1275px;
   width: 100%;
-  padding: 70px 289px 71px 0;
-  margin-top: 150px;
+  padding: 70px 289px 71px 165px;
+  position: relative;
+  background-color: var(--color-grey-light);
+  top: 350px;
 }
 
 .offer__title {
@@ -79,13 +85,14 @@
   font-size: 60px;
   line-height: 74px;
   color: var(--color-green);
+  max-width: 822px;
 }
 
 .offer__link {
   font-weight: 700;
   font-size: 16px;
   line-height: 1;
-  color: var(--color-yellow);
+  color: var(--color-grey);
   text-decoration: underline;
   display: inline-block;
   margin-top: 50px;
